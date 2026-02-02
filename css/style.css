@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+NZ+Basic+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../images/main.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.counter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   gap: 10px;
+}
+
+p{
+    font-size: 12px;
+
+}
+
+.ramadan{
+    font-family: 'Playwrite NZ Basic Guides', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.box small{
+    font-size: 10px;
+}
+
+@media (min-width: 576px) {
+    .ramadan{
+        font-size: 100px;
+    }
+
+    .box h2{
+        font-size: 30px;
+    }
+
+    .box{
+        width: 100px;
+        height: 70px;
+    }
+
+    .box small{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .ramadan{
+        font-size: 150px;
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+
+    .box h2{
+        font-size: 50px;
+    }
+
+    .box small{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}
